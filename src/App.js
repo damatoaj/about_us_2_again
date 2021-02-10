@@ -9,9 +9,11 @@ function App() {
   return (
     <div className="App">
     <h2>We are about!</h2>
-    <Arthur />
-    <Katie />
-    <Brian />
+      <div className="container">
+      <Arthur />
+      <Katie />
+      <Brian />
+      </div>
     </div>
   );
 }
